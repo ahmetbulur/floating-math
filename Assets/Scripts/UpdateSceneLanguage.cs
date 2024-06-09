@@ -109,11 +109,11 @@ public class UpdateSceneLanguage : MonoBehaviour
             if (PlayerPrefs.GetFloat("langCode") == 0)
                 textsToUpdate[0].text = "Click true answer \nkeep sliding operations\n away from bottom\n\n"
                                   + "Practice and Enjoy!\n\n"
-                                  + "Metbu Games  ©  2021";
+                                  + "Developer: Ahmet Bulur";
             else
                 textsToUpdate[0].text = "Kayan iþlemleri \nalttan uzak tutmak için\ndoðru yanýta týklayýn\n\n"
                                   + "Pratik Yapýn ve Eðlenin!\n\n"
-                                  + "Metbu Games  ©  2021";
+                                  + "Geliþtirici: Ahmet Bulur";
         }
     }
 }
